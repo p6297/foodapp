@@ -1,7 +1,7 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const mongo_URI =
-  "mongodb+srv://partha:partha123@cluster0.cnjdrby.mongodb.net/partha?retryWrites=true&w=majority";
+  "mongodb+srv://username:password@cluster0.cnjdrby.mongodb.net/partha?retryWrites=true&w=majority";
 
 //db connected and read data
 const mongoDB = async () => {
