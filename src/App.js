@@ -10,13 +10,11 @@ import Login from './screens/Login';
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
 import Signup from './screens/Signup';
-import { CartProvider } from './components/ContextReducer';
 
 function App() {
   return (
     <>
- <CartProvider>
- <Router>
+    <Router>
     <div>
       <Routes>
         <Route exact path="/" element={<Home />}/>
@@ -25,7 +23,6 @@ function App() {
       </Routes>
     </div>
     </Router>
- </CartProvider>
     
     </>
   );
